@@ -121,6 +121,8 @@
   @media(max-width:900px){.grid{grid-template-columns:1fr}}
   .proj{background:#fff;border-radius:6px;overflow:hidden;border:1px solid var(--line);transition:.2s}
   .proj:hover{transform:translateY(-4px);box-shadow:0 16px 36px rgba(27,43,99,.10)}
+  .project-link{display:block;color:inherit;cursor:pointer}
+  .project-link:focus-visible{outline:3px solid rgba(42,75,215,.35);outline-offset:5px}
   .thumb{height:290px;display:flex;align-items:center;justify-content:center;padding:26px;text-align:center}
   .thumb h3{color:#fff;font-weight:800;font-size:1.45rem;text-shadow:0 2px 14px rgba(0,0,0,.28)}
   .t1{background:linear-gradient(135deg,#0f1e46,#2a4bd7)}
@@ -129,6 +131,7 @@
   .proj .info{padding:22px}
   .proj .info .tagline{color:var(--muted);font-size:.92rem;margin:6px 0 14px}
   .proj .info a{font-size:.8rem;font-weight:800;letter-spacing:.08em;color:var(--blue)}
+  .proj .info .case-link{font-size:.8rem;font-weight:800;letter-spacing:.08em;color:var(--blue)}
   .flag{display:inline-block;background:#e0e7fb;color:var(--blue);font-size:.64rem;font-weight:800;letter-spacing:.1em;padding:4px 10px;border-radius:4px;margin-bottom:10px}
   .placeholder .thumb{opacity:.5}
 
@@ -366,14 +369,14 @@
     </div>
     <div class="grid reveal reveal-delay-1">
 
-      <div class="proj">
-        <div class="thumb t1"><h3>Driver Lifetime Value</h3></div>
+      <a class="proj project-link" href="https://github.com/YeshaMandaliya/Lyft_Driver_Analysis" target="_blank" rel="noopener noreferrer" aria-label="View the Lyft Driver Retention Strategy case study on GitHub">
+        <div class="thumb t1"><h3>Lyft Driver Retention Strategy</h3></div>
         <div class="info">
           <span class="flag">FLAGSHIP</span>
-          <div class="tagline">Estimated a rideshare driver's value at ~$1.7–1.9K in net revenue and showed the first 7 days predict value and churn — refocusing retention on the engaged middle.</div>
-          <a href="#" target="_blank">Read the case study →</a>
+          <div class="tagline">Analyzed 193,000+ rides to identify early signs of driver disengagement using survival analysis and cohort validation, then translated the findings into a simple targeting rule and a controlled retention experiment.</div>
+          <span class="case-link">Read the case study →</span>
         </div>
-      </div>
+      </a>
 
       <div class="proj placeholder">
         <div class="thumb t2"><h3>Project Two</h3></div>
