@@ -119,10 +119,8 @@
   /* PORTFOLIO */
   .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:30px}
   @media(max-width:900px){.grid{grid-template-columns:1fr}}
-  .proj{background:#fff;border-radius:6px;overflow:hidden;border:1px solid var(--line);transition:.2s}
+  .proj{display:block;background:#fff;border-radius:6px;overflow:hidden;border:1px solid var(--line);transition:.2s}
   .proj:hover{transform:translateY(-4px);box-shadow:0 16px 36px rgba(27,43,99,.10)}
-  .project-link{display:block;color:inherit;cursor:pointer}
-  .project-link:focus-visible{outline:3px solid rgba(42,75,215,.35);outline-offset:5px}
   .thumb{height:290px;display:flex;align-items:center;justify-content:center;padding:26px;text-align:center}
   .thumb h3{color:#fff;font-weight:800;font-size:1.45rem;text-shadow:0 2px 14px rgba(0,0,0,.28)}
   .t1{background:linear-gradient(135deg,#0f1e46,#2a4bd7)}
@@ -130,9 +128,7 @@
   .t3{background:linear-gradient(135deg,#22346f,#5f84ea)}
   .proj .info{padding:22px}
   .proj .info .tagline{color:var(--muted);font-size:.92rem;margin:6px 0 14px}
-  .proj .info a{font-size:.8rem;font-weight:800;letter-spacing:.08em;color:var(--blue)}
-  .proj .info .case-link{font-size:.8rem;font-weight:800;letter-spacing:.08em;color:var(--blue)}
-  .flag{display:inline-block;background:#e0e7fb;color:var(--blue);font-size:.64rem;font-weight:800;letter-spacing:.1em;padding:4px 10px;border-radius:4px;margin-bottom:10px}
+  .proj .info a,.proj .info .project-link{font-size:.8rem;font-weight:800;letter-spacing:.08em;color:var(--blue)}
   .placeholder .thumb{opacity:.5}
 
   /* CONTACT */
@@ -369,22 +365,21 @@
     </div>
     <div class="grid reveal reveal-delay-1">
 
-      <a class="proj project-link" href="https://github.com/YeshaMandaliya/Lyft_Driver_Analysis" target="_blank" rel="noopener noreferrer" aria-label="View the Lyft Driver Retention Strategy case study on GitHub">
+      <a class="proj" href="https://github.com/YeshaMandaliya/Lyft_Driver_Analysis" target="_blank" rel="noopener noreferrer" aria-label="Open Lyft Driver Retention Strategy case study on GitHub">
         <div class="thumb t1"><h3>Lyft Driver Retention Strategy</h3></div>
         <div class="info">
-          <span class="flag">FLAGSHIP</span>
-          <div class="tagline">Analyzed 193,000+ rides to identify early signs of driver disengagement using survival analysis and cohort validation, then translated the findings into a simple targeting rule and a controlled retention experiment.</div>
-          <span class="case-link">Read the case study →</span>
+          <div class="tagline">Estimated a rideshare driver's value at ~$1.7–1.9K in net revenue and showed the first 7 days predict value and churn — refocusing retention on the engaged middle.</div>
+          <span class="project-link">Read the case study →</span>
         </div>
       </a>
 
-      <div class="proj placeholder">
-        <div class="thumb t2"><h3>Project Two</h3></div>
+      <a class="proj" href="https://github.com/YeshaMandaliya/Used_Car_Pricing_Benchmark" target="_blank" rel="noopener noreferrer" aria-label="Open Used Car Pricing Benchmark case study on GitHub">
+        <div class="thumb t2"><h3>Used Car Pricing Benchmark</h3></div>
         <div class="info">
-          <div class="tagline">[Outcome-first one-liner: the question, and the decision it enabled.]</div>
-          <a href="#">Read the case study →</a>
+          <div class="tagline">Built a transparent pricing benchmark for 97,673 UK used-car listings, reducing typical error from 9.61% to 7.77% and routing uncertain vehicles to the right level of human review.</div>
+          <span class="project-link">Read the case study →</span>
         </div>
-      </div>
+      </a>
 
       <div class="proj placeholder">
         <div class="thumb t3"><h3>Project Three</h3></div>
@@ -404,7 +399,7 @@
     <h2 class="reveal"><span class="sq"></span>Let's connect</h2>
     <div class="cinfo reveal reveal-delay-1">
       <div class="col"><h4>WRITE</h4><a href="mailto:yesha3710@gmail.com">yesha3710@gmail.com</a></div>
-      <div class="col"><h4>CALL</h4><p>+1 (412) 390-9438</p></div>
+      <div class="col"><h4>CALL</h4><p>+1 (XXX) XXX-XXXX</p></div>
       <div class="col"><h4>LINKEDIN</h4><a href="https://www.linkedin.com/in/yesha-mandaliya-ba8bb5199/" target="_blank" rel="noopener">/in/yesha-mandaliya</a></div>
       <div class="col"><h4>GITHUB</h4><a href="https://github.com/YeshaMandaliya" target="_blank" rel="noopener">YeshaMandaliya</a></div>
     </div>
