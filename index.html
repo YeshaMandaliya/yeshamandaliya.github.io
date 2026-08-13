@@ -3,14 +3,18 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Yesha Mandaliya</title>
-
+<title>Yesha Mandaliya | Data Analytics, Business Intelligence &amp; AI</title>
 <meta
   name="description"
-  content="Yesha Mandaliya. Analysis built to survive the follow-up question."
+  content="Yesha Mandaliya. Data analyst with 4+ years across operations, pricing, and company intelligence. SQL, Python, Power BI, Tableau."
 >
-
+<!-- Open Graph tags so the link previews properly when pasted into an application, email, or message -->
+<meta property="og:title" content="Yesha Mandaliya | Data Analytics, Business Intelligence &amp; AI">
+<meta property="og:description" content="Data analyst turning &quot;I think&quot; into &quot;I know.&quot;">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://yeshamandaliya.github.io/">
+<!-- <meta property="og:image" content="https://yeshamandaliya.github.io/og-preview.png"> -->
+<!-- <link rel="icon" href="favicon.png"> -->
 <style>
 :root{
   --bg:#f4f6fc;
@@ -24,17 +28,14 @@
   --wrap:1180px;
   --font:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
 }
-
 *{
   margin:0;
   padding:0;
   box-sizing:border-box;
 }
-
 html{
   scroll-behavior:smooth;
 }
-
 body{
   font-family:var(--font);
   color:var(--ink);
@@ -42,25 +43,20 @@ body{
   line-height:1.6;
   -webkit-font-smoothing:antialiased;
 }
-
 a{
   text-decoration:none;
   color:inherit;
 }
-
 .wrap{
   max-width:var(--wrap);
   margin:0 auto;
   padding:0 40px;
 }
-
 .topbar{
   height:4px;
   background:var(--blue);
 }
-
 /* NAVIGATION */
-
 nav{
   position:sticky;
   top:0;
@@ -68,7 +64,6 @@ nav{
   background:#fff;
   border-bottom:1px solid #eaeef7;
 }
-
 nav .row{
   display:flex;
   align-items:center;
@@ -78,38 +73,32 @@ nav .row{
   margin:0 auto;
   padding:0 40px;
 }
-
 .brand{
   display:flex;
   align-items:center;
   gap:14px;
 }
-
 .logo{
   width:20px;
   height:20px;
   background:var(--blue);
   border-radius:3px;
 }
-
 .brand .nm{
   font-weight:800;
   font-size:1.3rem;
   letter-spacing:-.3px;
 }
-
 .brand .role{
   font-size:.7rem;
   font-weight:700;
   letter-spacing:.18em;
   color:var(--muted);
 }
-
 .menu{
   display:flex;
   align-items:center;
 }
-
 .menu a{
   font-size:.75rem;
   font-weight:700;
@@ -118,20 +107,16 @@ nav .row{
   color:var(--ink);
   transition:color .15s;
 }
-
 .menu a:hover,
 .menu a.active{
   color:var(--blue);
 }
-
 /* HERO */
-
 .hero{
   display:grid;
   grid-template-columns:1fr 1.15fr;
   min-height:calc(100vh - 80px);
 }
-
 .hero-left{
   background:linear-gradient(135deg,#e9eef9,#dce5f6);
   display:flex;
@@ -139,7 +124,6 @@ nav .row{
   justify-content:center;
   padding:56px 30px;
 }
-
 .card{
   background:#fff;
   width:330px;
@@ -148,11 +132,9 @@ nav .row{
   text-align:center;
   overflow:hidden;
 }
-
 .card .pad{
   padding:44px 30px 30px;
 }
-
 .photo{
   width:186px;
   height:186px;
@@ -162,27 +144,24 @@ nav .row{
   border:4px solid #fff;
   box-shadow:0 14px 34px rgba(27,43,99,.16);
 }
-
 .card h2{
   font-weight:800;
   font-size:1.4rem;
   line-height:1.2;
 }
-
 .card .divider{
   width:46px;
   height:4px;
   background:var(--blue);
   margin:15px auto;
 }
-
 .card .sub{
-  font-size:.76rem;
-  letter-spacing:.22em;
+  font-size:.7rem;
+  letter-spacing:.16em;
   color:var(--muted);
   font-weight:700;
+  line-height:1.7;
 }
-
 .social{
   border-top:1px solid #eaeef7;
   background:#fbfcfe;
@@ -193,7 +172,6 @@ nav .row{
   justify-content:center;
   gap:12px;
 }
-
 .social-icon{
   width:42px;
   height:42px;
@@ -205,18 +183,15 @@ nav .row{
   border-radius:9px;
   transition:transform .18s ease,background .18s ease;
 }
-
 .social-icon svg{
   width:18px;
   height:18px;
   display:block;
 }
-
 .social-icon:hover{
   transform:translateY(-2px);
   background:var(--blue);
 }
-
 .hero-right{
   background:var(--tint);
   display:flex;
@@ -224,7 +199,6 @@ nav .row{
   justify-content:center;
   padding:64px 70px;
 }
-
 .hero-right .kick{
   font-size:.72rem;
   font-weight:800;
@@ -232,7 +206,6 @@ nav .row{
   color:var(--blue-deep);
   margin-bottom:20px;
 }
-
 .hero-right h1{
   font-size:2.9rem;
   font-weight:800;
@@ -241,20 +214,17 @@ nav .row{
   margin-bottom:22px;
   max-width:640px;
 }
-
 .hero-right .bio{
   font-size:1.05rem;
   color:#2b3550;
-  max-width:590px;
-  margin-bottom:34px;
+  max-width:600px;
+  margin-bottom:30px;
 }
-
 .btns{
   display:flex;
   gap:16px;
   flex-wrap:wrap;
 }
-
 .pill{
   display:inline-block;
   padding:13px 30px;
@@ -265,54 +235,43 @@ nav .row{
   letter-spacing:.12em;
   transition:.15s;
 }
-
 .pill:hover{
   background:var(--ink);
   color:#fff;
 }
-
 .pill.solid{
   background:var(--blue);
   border-color:var(--blue);
   color:#fff;
 }
-
 .pill.solid:hover{
   opacity:.9;
 }
-
 /* SECTIONS */
-
 section.block{
   padding:92px 0;
 }
-
 .center{
   text-align:center;
   max-width:680px;
   margin:0 auto 56px;
 }
-
 .center h2{
   font-size:3.2rem;
   font-weight:800;
   letter-spacing:-1px;
   margin-bottom:16px;
 }
-
 .center p{
   color:var(--muted);
   font-size:1.05rem;
 }
-
 /* PROJECTS */
-
 .grid{
   display:grid;
   grid-template-columns:repeat(2,1fr);
   gap:30px;
 }
-
 .proj{
   display:flex;
   flex-direction:column;
@@ -322,12 +281,10 @@ section.block{
   border:1px solid var(--line);
   transition:transform .2s ease,box-shadow .2s ease;
 }
-
 .proj:hover{
   transform:translateY(-4px);
   box-shadow:0 16px 36px rgba(27,43,99,.10);
 }
-
 .thumb{
   height:290px;
   display:flex;
@@ -336,7 +293,6 @@ section.block{
   padding:26px;
   text-align:center;
 }
-
 .thumb h3{
   color:#fff;
   font-weight:800;
@@ -344,36 +300,29 @@ section.block{
   line-height:1.3;
   text-shadow:0 2px 14px rgba(0,0,0,.28);
 }
-
 .t1{
   background:linear-gradient(135deg,#0f1e46,#2a4bd7);
 }
-
 .t2{
   background:linear-gradient(135deg,#16306e,#3a63e0);
 }
-
 .t3{
   background:linear-gradient(135deg,#22346f,#5f84ea);
 }
-
 .t4{
   background:linear-gradient(135deg,#172554,#4263d8);
 }
-
 .proj .info{
   padding:22px;
   display:flex;
   flex-direction:column;
   flex:1;
 }
-
 .proj .tagline{
   color:var(--muted);
   font-size:.92rem;
   margin:6px 0 14px;
 }
-
 .tools{
   display:flex;
   flex-wrap:wrap;
@@ -381,7 +330,6 @@ section.block{
   margin:auto 0 17px;
   padding-top:4px;
 }
-
 .tool{
   padding:5px 10px;
   border-radius:20px;
@@ -392,16 +340,13 @@ section.block{
   font-weight:800;
   letter-spacing:.06em;
 }
-
 .project-link{
   font-size:.8rem;
   font-weight:800;
   letter-spacing:.08em;
   color:var(--blue);
 }
-
 /* DOWNLOAD BUTTONS */
-
 .project-actions{
   display:flex;
   flex-wrap:wrap;
@@ -409,7 +354,6 @@ section.block{
   margin-top:auto;
   padding-top:4px;
 }
-
 .download-btn{
   display:inline-flex;
   align-items:center;
@@ -424,141 +368,24 @@ section.block{
   letter-spacing:.07em;
   transition:background .18s ease,color .18s ease,transform .18s ease;
 }
-
 .download-btn:hover{
   background:var(--blue);
   color:#fff;
   transform:translateY(-2px);
 }
-
 .download-btn.primary{
   background:var(--blue);
   color:#fff;
 }
-
 .download-btn.primary:hover{
   background:var(--blue-deep);
   border-color:var(--blue-deep);
 }
-
-/* APPROACH */
-
-.how{
-  background:var(--tint-lite);
-}
-
-.road-shell{
-  position:relative;
-  max-width:1140px;
-  margin:0 auto;
-  padding:18px 8px 6px;
-}
-
-.road-caption{
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  gap:10px;
-  margin:0 auto 8px;
-  color:var(--blue-deep);
-  font-size:.72rem;
-  font-weight:800;
-  letter-spacing:.15em;
-  text-transform:uppercase;
-}
-
-.live-dot{
-  width:7px;
-  height:7px;
-  border-radius:50%;
-  background:var(--blue);
-  animation:livePulse 2s ease-in-out infinite;
-}
-
-@keyframes livePulse{
-  0%,100%{
-    opacity:.45;
-    box-shadow:0 0 0 0 rgba(42,75,215,0);
-  }
-
-  50%{
-    opacity:1;
-    box-shadow:0 0 0 7px rgba(42,75,215,.12);
-  }
-}
-
-.road-svg{
-  width:100%;
-  height:auto;
-  display:block;
-  max-width:1120px;
-  margin:8px auto 0;
-  overflow:visible;
-}
-
-.road-svg text{
-  font-family:var(--font);
-}
-
-.road-track{
-  fill:none;
-  stroke:#bfc9df;
-  stroke-width:2.2;
-  stroke-linecap:round;
-  stroke-dasharray:3 10;
-}
-
-.road-node{
-  cursor:default;
-  transform-box:fill-box;
-  transform-origin:center;
-  transition:.25s;
-}
-
-.road-node:hover{
-  transform:translateY(-5px) scale(1.04);
-  filter:drop-shadow(0 12px 14px rgba(27,43,99,.14));
-}
-
-.road-node .halo{
-  fill:#fff;
-  stroke:#ccd7f1;
-  stroke-width:2;
-}
-
-.road-node .core{
-  stroke:#fff;
-  stroke-width:3;
-}
-
-.road-svg .rt-title{
-  fill:var(--ink);
-  font-size:18px;
-  font-weight:800;
-}
-
-.road-svg .rt-desc{
-  fill:var(--muted);
-  font-size:13px;
-}
-
-.road-svg .rt-num{
-  fill:#fff;
-  font-size:21px;
-  font-weight:800;
-}
-
-.road-mobile{
-  display:none;
-}
-
 /* CONTACT */
-
 .contact{
   background:var(--tint);
   padding:88px 0;
 }
-
 .contact h2{
   text-align:center;
   font-size:3.2rem;
@@ -569,7 +396,6 @@ section.block{
   justify-content:center;
   gap:14px;
 }
-
 .sq{
   width:24px;
   height:24px;
@@ -577,7 +403,6 @@ section.block{
   border-radius:4px;
   display:inline-block;
 }
-
 .cinfo{
   display:flex;
   justify-content:center;
@@ -585,34 +410,27 @@ section.block{
   gap:56px;
   margin-top:40px;
 }
-
 .cinfo .col{
   text-align:center;
 }
-
 .cinfo h4{
   font-size:.7rem;
   letter-spacing:.16em;
   margin-bottom:8px;
   color:var(--muted);
 }
-
 .cinfo a,
 .cinfo p{
   font-weight:600;
   font-size:.98rem;
 }
-
 .cinfo a:hover{
   color:var(--blue);
 }
-
 /* FOOTER */
-
 footer{
   padding:34px 0;
 }
-
 footer .row{
   display:flex;
   justify-content:space-between;
@@ -620,29 +438,23 @@ footer .row{
   gap:16px;
   align-items:center;
 }
-
 .copy{
   color:#8b93a8;
   font-size:.82rem;
 }
-
 footer .fl a{
   font-weight:800;
   margin-left:18px;
   font-size:.85rem;
 }
-
 footer .fl a:hover{
   color:var(--blue);
 }
-
 /* SECTION TRANSITIONS */
-
 .page-section{
   position:relative;
   isolation:isolate;
 }
-
 .page-section::after{
   content:"";
   position:absolute;
@@ -659,7 +471,6 @@ footer .fl a:hover{
     var(--bg)
   );
 }
-
 .hero.page-section::after{
   background:linear-gradient(
     to bottom,
@@ -668,8 +479,7 @@ footer .fl a:hover{
     var(--bg)
   );
 }
-
-.how.page-section::after{
+.experience.page-section::after{
   background:linear-gradient(
     to bottom,
     rgba(238,242,252,0),
@@ -677,13 +487,10 @@ footer .fl a:hover{
     var(--bg)
   );
 }
-
 .contact.page-section::after{
   display:none;
 }
-
 /* REVEAL ANIMATIONS */
-
 .reveal{
   opacity:0;
   transform:translateY(28px);
@@ -691,127 +498,209 @@ footer .fl a:hover{
     opacity .78s cubic-bezier(.2,.7,.2,1),
     transform .78s cubic-bezier(.2,.7,.2,1);
 }
-
 .reveal.from-left{
   transform:translateX(-34px);
 }
-
 .reveal.from-right{
   transform:translateX(34px);
 }
-
 .reveal.visible{
   opacity:1;
   transform:none;
 }
-
 .reveal-delay-1{
   transition-delay:.08s;
 }
 
-/* RESPONSIVE */
+/* Experience */
+.experience{
+  background:var(--tint-lite);
+}
+.exp-intro{
+  max-width:800px;
+  margin:0 auto 52px;
+  text-align:center;
+  color:#2b3550;
+  font-size:1.05rem;
+}
+.exp-list{
+  display:flex;
+  flex-direction:column;
+  gap:20px;
+  max-width:960px;
+  margin:0 auto;
+}
+.exp-item{
+  background:#fff;
+  border:1px solid var(--line);
+  border-radius:6px;
+  border-left:4px solid var(--blue);
+  padding:26px 30px;
+  transition:transform .2s ease,box-shadow .2s ease;
+}
+.exp-item:hover{
+  transform:translateY(-3px);
+  box-shadow:0 14px 32px rgba(27,43,99,.09);
+}
+.exp-head{
+  display:flex;
+  justify-content:space-between;
+  align-items:baseline;
+  flex-wrap:wrap;
+  gap:8px;
+  margin-bottom:5px;
+}
+.exp-title{
+  font-size:1.15rem;
+  font-weight:800;
+  letter-spacing:-.2px;
+}
+.exp-dates{
+  font-size:.72rem;
+  font-weight:800;
+  letter-spacing:.13em;
+  color:var(--muted);
+  white-space:nowrap;
+}
+.exp-org{
+  font-size:.85rem;
+  font-weight:700;
+  letter-spacing:.02em;
+  color:var(--blue-deep);
+  margin-bottom:12px;
+}
+.exp-org .sep{
+  color:#b9c3dc;
+  font-weight:400;
+  margin:0 7px;
+}
+.exp-org .ind{
+  color:var(--muted);
+  font-weight:600;
+}
+.exp-scope{
+  font-size:.96rem;
+  color:#2b3550;
+  margin-bottom:20px;
+}
 
+.exp-item .tools{
+  margin:0;
+}
+.exp-footnote{
+  text-align:center;
+  max-width:700px;
+  margin:34px auto 0;
+  color:var(--muted);
+  font-size:.9rem;
+}
+
+/* Skills */
+.skill-grid{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:22px;
+  max-width:940px;
+  margin:0 auto;
+}
+.skill-row{
+  background:#fff;
+  border:1px solid var(--line);
+  border-radius:6px;
+  padding:22px 24px;
+}
+.skill-row h4{
+  font-size:.7rem;
+  font-weight:800;
+  letter-spacing:.16em;
+  color:var(--muted);
+  margin-bottom:13px;
+}
+.skill-row .tools{
+  margin:0;
+}
+.skill-note{
+  text-align:center;
+  max-width:680px;
+  margin:40px auto 0;
+  color:var(--muted);
+  font-size:.92rem;
+}
+
+/* Education */
+.edu-grid{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:22px;
+  max-width:940px;
+  margin:22px auto 0;
+}
+.edu-row{
+  background:#fff;
+  border:1px solid var(--line);
+  border-radius:6px;
+  border-left:4px solid var(--blue);
+  padding:20px 24px;
+}
+.edu-deg{
+  font-size:1rem;
+  font-weight:800;
+  letter-spacing:-.2px;
+  margin-bottom:3px;
+}
+.edu-school{
+  font-size:.86rem;
+  color:var(--muted);
+  font-weight:600;
+}
+.edu-date{
+  font-size:.72rem;
+  font-weight:800;
+  letter-spacing:.12em;
+  color:var(--blue-deep);
+  margin-top:7px;
+}
+
+/* RESPONSIVE */
 @media(max-width:900px){
   .wrap,
   nav .row{
     padding-left:22px;
     padding-right:22px;
   }
-
   .brand .role{
     display:none;
   }
-
   .menu a{
     margin-left:16px;
     font-size:.68rem;
   }
-
   .hero{
     grid-template-columns:1fr;
   }
-
   .hero-right{
     padding:54px 30px 76px;
   }
-
   .hero-right h1{
     font-size:2.2rem;
   }
-
   .center h2{
     font-size:2.3rem;
   }
-
   .grid{
     grid-template-columns:1fr;
     max-width:620px;
     margin:0 auto;
   }
-
   .thumb{
     height:250px;
   }
-}
-
-@media(max-width:820px){
-  .road-svg{
-    display:none;
-  }
-
-  .road-mobile{
-    display:flex;
-    flex-direction:column;
-    position:relative;
-  }
-
-  .road-mobile::before{
-    content:"";
-    position:absolute;
-    left:26px;
-    top:16px;
-    bottom:16px;
-    width:2px;
-    background:#cdd6ee;
-  }
-
-  .rm-step{
-    display:flex;
-    gap:18px;
-    padding:12px 0;
-    position:relative;
-    z-index:1;
-  }
-
-  .rm-step .num{
-    width:52px;
-    height:52px;
-    flex:0 0 auto;
-    border-radius:50%;
-    color:#fff;
-    font-weight:800;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    border:5px solid var(--tint-lite);
-  }
-
-  .rm-step .txt{
-    padding-top:5px;
-  }
-
-  .rm-step h4{
-    font-size:1rem;
-    font-weight:800;
-    margin-bottom:4px;
-  }
-
-  .rm-step p{
-    font-size:.88rem;
-    color:var(--muted);
+  .skill-grid,
+  .edu-grid{
+    grid-template-columns:1fr;
+    max-width:620px;
   }
 }
-
 @media(max-width:650px){
   nav .row{
     height:auto;
@@ -819,93 +708,74 @@ footer .fl a:hover{
     padding-top:12px;
     padding-bottom:12px;
   }
-
   .brand .nm{
     font-size:1.05rem;
   }
-
   .menu{
     display:none;
   }
-
   .hero-left{
     padding:42px 22px;
   }
-
   .hero-right h1{
     font-size:2rem;
   }
-
   section.block{
     padding:72px 0;
   }
-
   .contact h2{
     font-size:2.3rem;
   }
-
   .cinfo{
     flex-direction:column;
     gap:30px;
   }
-
   footer .fl a{
     margin:0 18px 0 0;
   }
-
   .project-actions{
     flex-direction:column;
   }
-
   .download-btn{
     width:100%;
   }
+  .exp-item{
+    padding:22px 20px;
+  }
 }
-
 @media(prefers-reduced-motion:reduce){
   html{
     scroll-behavior:auto;
   }
-
   .reveal{
     opacity:1;
     transform:none;
     transition:none;
   }
-
-  .live-dot{
-    animation:none;
-  }
 }
 </style>
 </head>
-
 <body>
-
 <div class="topbar"></div>
-
 <nav>
   <div class="row">
     <div class="brand">
       <span class="logo"></span>
-
       <span>
         <span class="nm">Yesha Mandaliya</span>
         &nbsp;
-        <span class="role"></span>
+        <span class="role">DATA ANALYTICS &middot; BI &middot; AI</span>
       </span>
     </div>
-
     <div class="menu">
       <a href="#about" class="active">ABOUT</a>
+      <a href="#experience">EXPERIENCE</a>
       <a href="#projects">PROJECTS</a>
-      <a href="#how">APPROACH</a>
+      <a href="#skills">SKILLS</a>
       <a href="#contact">CONTACT</a>
     </div>
   </div>
 </nav>
-
-<!-- HERO -->
 
 <section class="hero page-section" id="about">
   <div class="hero-left reveal from-left">
@@ -916,59 +786,54 @@ footer .fl a:hover{
           role="img"
           aria-label="Portrait of Yesha Mandaliya">
         </div>
-
-        <h2>Yesha Mandaliya, PMP</h2>
-
+        <h2>Yesha Mandaliya</h2>
         <div class="divider"></div>
-
-        <div class="sub">ANALYTICS PROFESSIONAL</div>
+        <div class="sub">
+          DATA ANALYTICS<br>
+          BUSINESS INTELLIGENCE &amp; AI
+        </div>
       </div>
-
       <div class="social">
         <a
-          href="https://www.linkedin.com/in/yesha-mandaliya-pmp%C2%AE-ba8bb5199/"
+          href="https://www.linkedin.com/in/yesha-mandaliya-pmp-ba8bb5199/"
           target="_blank"
           rel="noopener noreferrer"
           class="social-icon"
           aria-label="LinkedIn">
-
           <svg
             aria-hidden="true"
             viewBox="0 0 24 24"
             fill="currentColor">
-
             <path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.34V8.99h3.42v1.57h.05c.48-.9 1.64-1.85 3.37-1.85 3.61 0 4.27 2.38 4.27 5.47v6.27ZM5.32 7.43a2.07 2.07 0 1 1 0-4.14 2.07 2.07 0 0 1 0 4.14ZM7.1 20.45H3.54V8.99H7.1v11.46ZM22.23 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.46C23.21 24 24 23.23 24 22.27V1.73C24 .77 23.21 0 22.23 0Z"/>
           </svg>
         </a>
-
         <a
           href="https://github.com/YeshaMandaliya"
           target="_blank"
           rel="noopener noreferrer"
           class="social-icon"
           aria-label="GitHub">
-
           <svg
             aria-hidden="true"
             viewBox="0 0 24 24"
             fill="currentColor">
-
             <path d="M12 .7a11.3 11.3 0 0 0-3.57 22.03c.57.1.78-.25.78-.55v-2.16c-3.18.69-3.85-1.35-3.85-1.35-.52-1.32-1.27-1.67-1.27-1.67-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.02 1.75 2.68 1.25 3.34.95.1-.74.4-1.25.73-1.54-2.54-.29-5.2-1.27-5.2-5.64 0-1.25.44-2.27 1.18-3.07-.12-.29-.51-1.45.11-3.02 0 0 .96-.31 3.13 1.17A10.9 10.9 0 0 1 12 6c.97 0 1.94.13 2.85.38 2.17-1.48 3.13-1.17 3.13-1.17.62 1.57.23 2.73.11 3.02.74.8 1.18 1.82 1.18 3.07 0 4.38-2.67 5.35-5.21 5.63.41.35.77 1.05.77 2.12v3.13c0 .3.21.66.79.55A11.3 11.3 0 0 0 12 .7Z"/>
           </svg>
         </a>
       </div>
     </div>
   </div>
-
   <div class="hero-right reveal from-right reveal-delay-1">
     <p class="kick">HI, I'M YESHA</p>
-
-    <h1>Start with the decision. Earn the answer.</h1>
-
+    <h1>Turning &ldquo;I think&rdquo; into &ldquo;I know.&rdquo;</h1>
     <p class="bio">
-      I structure ambiguous business problems, use data to identify what matters, and translate the evidence into a clear next move.
+      I am a data analyst with over four years across analytics and research
+      roles in operations, pricing, and company intelligence. I turn large
+      datasets into the dashboards, reports, and analysis that leadership acts
+      on, using SQL, Python, Power BI, Tableau, and advanced Excel. Lately I
+      have been building AI into daily work to automate reporting and shorten
+      the time it takes to get to an answer.
     </p>
-
     <div class="btns">
       <a href="#projects" class="pill solid">SEE MY WORK</a>
       <a href="#contact" class="pill">GET IN TOUCH</a>
@@ -976,143 +841,244 @@ footer .fl a:hover{
   </div>
 </section>
 
-<!-- PORTFOLIO -->
+<section class="block experience page-section" id="experience">
+  <div class="wrap">
+    <div class="center reveal">
+      <h2>Experience</h2>
+      <p>Four analyst roles across three industries.</p>
+    </div>
+    <p class="exp-intro reveal">
+      I have worked on the same kinds of business problems from four different
+      angles: company research, pricing, operations, and now business
+      intelligence with AI automation. That range is the reason I usually
+      understand why a metric moved, not only that it moved.
+    </p>
+    <div class="exp-list reveal reveal-delay-1">
+
+      <article class="exp-item">
+        <div class="exp-head">
+          <span class="exp-title">Business Analytics, AI &amp; Process Automation</span>
+          <span class="exp-dates">JAN 2026 TO PRESENT</span>
+        </div>
+        <div class="exp-org">
+          Business Analyst, Contract
+          <span class="sep">|</span>
+          Guru Hospitality
+          <span class="sep">|</span>
+          <span class="ind">Consulting, Princeton NJ</span>
+        </div>
+        <p class="exp-scope">
+          Root cause analysis across operational, financial, and client service
+          data, gathering stakeholder requirements for KPI dashboards and
+          automating recurring reporting with AI tools.
+        </p>
+        <div class="tools">
+          <span class="tool">Python</span>
+          <span class="tool">Excel</span>
+          <span class="tool">n8n</span>
+          <span class="tool">ChatGPT</span>
+          <span class="tool">Claude</span>
+          <span class="tool">Requirements Gathering</span>
+        </div>
+      </article>
+
+      <article class="exp-item">
+        <div class="exp-head">
+          <span class="exp-title">Data Analytics &amp; Business Intelligence</span>
+          <span class="exp-dates">MAY 2025 TO JAN 2026</span>
+        </div>
+        <div class="exp-org">
+          Data Analyst
+          <span class="sep">|</span>
+          Waste Management
+          <span class="sep">|</span>
+          <span class="ind">Fortune 500 Environmental Services</span>
+        </div>
+        <p class="exp-scope">
+          Power BI dashboard development on Snowflake data for finance,
+          operations, and pricing teams, with SQL based validation, billing
+          audits, and revenue and cost recovery analysis.
+        </p>
+        <div class="tools">
+          <span class="tool">SQL</span>
+          <span class="tool">Snowflake</span>
+          <span class="tool">Power BI</span>
+          <span class="tool">Python</span>
+          <span class="tool">Power Query</span>
+        </div>
+      </article>
+
+      <article class="exp-item">
+        <div class="exp-head">
+          <span class="exp-title">Pricing Analytics</span>
+          <span class="exp-dates">MAY 2024 TO MAY 2025</span>
+        </div>
+        <div class="exp-org">
+          Pricing &amp; Analytics Intern
+          <span class="sep">|</span>
+          Waste Management
+          <span class="sep">|</span>
+          <span class="ind">Fortune 500 Environmental Services</span>
+        </div>
+        <p class="exp-scope">
+          Account margin segmentation, repricing of acquired accounts, and
+          forecast and budget scenario modeling against company EBIT
+          thresholds.
+        </p>
+        <div class="tools">
+          <span class="tool">Excel</span>
+          <span class="tool">Power Query</span>
+          <span class="tool">Python</span>
+          <span class="tool">Scenario Modeling</span>
+        </div>
+      </article>
+
+      <article class="exp-item">
+        <div class="exp-head">
+          <span class="exp-title">Research Analytics &amp; Data Quality</span>
+          <span class="exp-dates">JUN 2021 TO JUL 2023</span>
+        </div>
+        <div class="exp-org">
+          Senior Analyst
+          <span class="sep">|</span>
+          Net Square Solutions
+          <span class="sep">|</span>
+          <span class="ind">Cybersecurity Research, Mumbai</span>
+        </div>
+        <p class="exp-scope">
+          Company intelligence research and source validation published to an
+          internal database and client portal, with monthly CRM based
+          leadership reporting and mentoring of junior analysts.
+        </p>
+        <div class="tools">
+          <span class="tool">Zoho CRM</span>
+          <span class="tool">Excel</span>
+          <span class="tool">Data Validation</span>
+          <span class="tool">Mentorship</span>
+          <span class="tool">Client Reporting</span>
+        </div>
+      </article>
+
+    </div>
+    <p class="exp-footnote reveal">
+      This is a short summary of each role. Detailed responsibilities and
+      measured results are in my resume, which I am glad to share on request.
+    </p>
+  </div>
+</section>
 
 <section class="block page-section" id="projects">
   <div class="wrap">
     <div class="center reveal">
-      <h2>My Portfolio</h2>
-      <p>Notable Projects</p>
+      <h2>Selected Work</h2>
+      <p>Every project here starts with a decision someone had to make.</p>
     </div>
-
     <div class="grid reveal reveal-delay-1">
-
-      <!-- PROJECT 1 -->
-
-      <a
-        class="proj"
-        href="https://github.com/YeshaMandaliya/Lyft_Driver_Analysis"
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label="Open Lyft Driver Retention Strategy case study on GitHub">
-
-        <div class="thumb t1">
-          <h3>Lyft Driver Retention Strategy</h3>
-        </div>
-
-        <div class="info">
-          <div class="tagline">
-            Drivers who quit early are expensive, and the warning signs show
-            up long before they stop. Ran survival analysis on 193,000+ rides
-            to find the earliest disengagement signals, tested whether a simple
-            risk model held up against a complex one, and designed a targeted
-            retention experiment around the drivers most likely to leave.
-          </div>
-
-          <div class="tools" aria-label="Tools used">
-            <span class="tool">Python</span>
-          </div>
-
-          <span class="project-link">Read the case study →</span>
-        </div>
-      </a>
-
-      <!-- PROJECT 2 -->
 
       <a
         class="proj"
         href="https://github.com/YeshaMandaliya/Used_Car_Pricing_Benchmark"
         target="_blank"
         rel="noopener noreferrer"
-        aria-label="Open Used Car Pricing Benchmark case study on GitHub">
-
+        aria-label="Open the used vehicle pricing benchmark case study">
         <div class="thumb t2">
-          <h3>Used Car Pricing Benchmark</h3>
+          <h3>Making used car pricing consistent without removing human judgement</h3>
         </div>
-
         <div class="info">
           <div class="tagline">
-            Pricing 97,673 UK used-car listings by feel leaves money on the
-            table in both directions. Built a transparent benchmark that cut
-            typical pricing error from 9.61% to 7.77%, and just as usefully,
-            flagged which vehicles the model shouldn't be trusted on, routing
-            those to human review.
+            97,673 UK listings were priced by feel, so different people reached
+            different answers for similar cars. I built a transparent benchmark
+            that cut typical pricing error from 9.61% to 7.77%. It also flags the
+            21% of vehicles it cannot price reliably and routes those to a
+            specialist.
           </div>
-
           <div class="tools" aria-label="Tools used">
             <span class="tool">Python</span>
+            <!-- Keep this SQL tag only once the SQL is visible in the repo -->
             <span class="tool">SQL</span>
+            <span class="tool">Regression</span>
           </div>
-
           <span class="project-link">Read the case study →</span>
         </div>
       </a>
-
-      <!-- PROJECT 3 -->
 
       <a
         class="proj"
         href="https://public.tableau.com/app/profile/yesha.mandaliya/viz/Airbnb_Data_Analysis_17845776476790/NYCRegulatoryExposure"
         target="_blank"
         rel="noopener noreferrer"
-        aria-label="Open NYC Short-Term Rental Regulatory Exposure dashboard on Tableau Public">
-
+        aria-label="Open the NYC short-term rental regulatory exposure dashboard">
         <div class="thumb t3">
-          <h3>NYC Short-Term Rental Regulatory Exposure</h3>
+          <h3>59.5% of NYC short-stay supply sits outside registration</h3>
         </div>
-
         <div class="info">
           <div class="tagline">
-            New York's Local Law 18 requires short-term rentals to register,
-            but enforcement depends on seeing who hasn't. Built a nine-month
-            dashboard from 325,052 listing snapshots showing 59.5% of April
-            2026 short-stay supply sat outside registration, with exemption
-            exposure concentrated in a small group of professional host
-            accounts.
+            Local Law 18 requires short-term rentals to register, but enforcement
+            depends on seeing who has not. I built a nine-month dashboard from
+            325,052 listing snapshots. Most of the exposure sits with a small
+            group of professional host accounts.
           </div>
-
           <div class="tools" aria-label="Tools used">
-            <span class="tool">Power Query</span>
             <span class="tool">Tableau</span>
+            <span class="tool">Power Query</span>
           </div>
-
           <span class="project-link">View the dashboard →</span>
         </div>
       </a>
 
-      <!-- PROJECT 4 -->
+      <a
+        class="proj"
+        href="https://github.com/YeshaMandaliya/Lyft_Driver_Retention_Strategy"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Open the driver disengagement case study">
+        <div class="thumb t1">
+          <h3>Spotting driver disengagement by day 14</h3>
+        </div>
+        <div class="info">
+          <div class="tagline">
+            Two simple signals predicted future inactivity almost as well as an
+            11-variable model. Survival analysis on more than 193,000 rides,
+            ending in a retention experiment anyone on the team could explain
+            rather than a churn score nobody could.
+          </div>
+          <div class="tools" aria-label="Tools used">
+            <span class="tool">Python</span>
+            <span class="tool">Survival Analysis</span>
+            <span class="tool">Experiment Design</span>
+          </div>
+          <span class="project-link">Read the case study →</span>
+        </div>
+      </a>
 
       <article class="proj">
         <div class="thumb t4">
-          <h3>Meal Delivery Profitability Strategy</h3>
+          <h3>Orders grew 25% while margin fell from 8% to 3%</h3>
         </div>
-
         <div class="info">
           <div class="tagline">
-            Orders grew 25%, but operating margin fell from 8% to 3%.
-            Structured the problem as a 60-minute consulting case, quantified
-            the unit-economic pressure, reconciled the profit decline, and
-            developed a diagnosis-first recovery plan.
+            A 60-minute structured case on a meal delivery business. I sized the
+            $1.80M recovery needed to restore the prior margin, then showed how
+            much the required action changes depending on where the problem
+            turns out to be concentrated.
           </div>
-
           <div class="tools" aria-label="Tools used">
             <span class="tool">PowerPoint</span>
+            <span class="tool">Case Structuring</span>
           </div>
-
           <div class="project-actions">
             <a
               class="download-btn primary"
               href="Yesha_Mandaliya_Meal_Delivery_Strategy_Case.pdf"
-              download="Yesha_Mandaliya_Meal_Delivery_Strategy_Case.pdf"
-              aria-label="Download Meal Delivery Profitability Strategy case as PDF">
+              download
+              aria-label="Download the meal delivery case as a PDF">
               Download PDF ↓
             </a>
-
             <a
               class="download-btn"
               href="Yesha_Mandaliya_Meal_Delivery_Strategy_Case_PPT.pptx"
-              download="Yesha_Mandaliya_Meal_Delivery_Strategy_Case_PPT.pptx"
-              aria-label="Download Meal Delivery Profitability Strategy case as PowerPoint">
+              download
+              aria-label="Download the meal delivery case as a PowerPoint">
               Download PPT ↓
             </a>
           </div>
@@ -1120,259 +1086,117 @@ footer .fl a:hover{
       </article>
 
     </div>
+
   </div>
 </section>
 
-<!-- APPROACH -->
-
-<section class="block how page-section" id="how">
+<section class="block page-section" id="skills">
   <div class="wrap">
     <div class="center reveal">
-      <h2>How I work</h2>
+      <h2>Skills</h2>
+      <p>Everything listed here shows up somewhere in the work above.</p>
+    </div>
+    <div class="skill-grid reveal reveal-delay-1">
 
-      <p>
-        A disciplined route from a fuzzy question to a decision someone can
-        defend.
-      </p>
+      <div class="skill-row">
+        <h4>QUERY AND LANGUAGES</h4>
+        <div class="tools">
+          <span class="tool">SQL</span>
+          <span class="tool">Snowflake</span>
+          <span class="tool">MySQL</span>
+          <span class="tool">Python</span>
+          <span class="tool">R</span>
+          <span class="tool">SPSS</span>
+        </div>
+      </div>
+
+      <div class="skill-row">
+        <h4>BUSINESS INTELLIGENCE</h4>
+        <div class="tools">
+          <span class="tool">Power BI</span>
+          <span class="tool">Tableau</span>
+          <span class="tool">Advanced Excel</span>
+          <span class="tool">VBA and Macros</span>
+          <span class="tool">Dashboard Development</span>
+        </div>
+      </div>
+
+      <div class="skill-row">
+        <h4>DATA PREPARATION AND QUALITY</h4>
+        <div class="tools">
+          <span class="tool">Power Query</span>
+          <span class="tool">Alteryx</span>
+          <span class="tool">Data Validation</span>
+          <span class="tool">Reconciliation</span>
+          <span class="tool">Requirements Gathering</span>
+        </div>
+      </div>
+
+      <div class="skill-row">
+        <h4>AI AND AUTOMATION</h4>
+        <div class="tools">
+          <span class="tool">ChatGPT</span>
+          <span class="tool">Claude</span>
+          <span class="tool">n8n</span>
+          <span class="tool">Power Automate</span>
+          <span class="tool">Reporting Automation</span>
+        </div>
+      </div>
+
+      <div class="skill-row">
+        <h4>ANALYTICAL METHODS</h4>
+        <div class="tools">
+          <span class="tool">Statistical Analysis</span>
+          <span class="tool">Regression</span>
+          <span class="tool">Survival Analysis</span>
+          <span class="tool">A/B and Experiment Design</span>
+          <span class="tool">Cohort Analysis</span>
+        </div>
+      </div>
+
+      <div class="skill-row">
+        <h4>PLATFORMS AND DOMAINS</h4>
+        <div class="tools">
+          <span class="tool">Salesforce</span>
+          <span class="tool">Zoho CRM</span>
+          <span class="tool">FactSet</span>
+          <span class="tool">Statista</span>
+          <span class="tool">Pricing</span>
+          <span class="tool">Operations</span>
+        </div>
+      </div>
+
     </div>
 
-    <div class="road-shell reveal reveal-delay-1">
-      <div class="road-caption">
-        <span class="live-dot"></span>
-        From question to decision
+    <div class="edu-grid reveal">
+      <div class="edu-row">
+        <div class="edu-deg">M.S. Business Analytics, STEM</div>
+        <div class="edu-school">University of Pittsburgh, Katz Graduate School of Business</div>
+        <div class="edu-date">AUG 2023 TO DEC 2024</div>
       </div>
-
-      <svg
-        class="road-svg"
-        viewBox="0 0 1200 430"
-        role="img"
-        aria-label="How I work — a six-step decision roadmap">
-
-        <defs>
-          <linearGradient id="rg1" x1="0" y1="0" x2="0" y2="1">
-            <stop offset="0" stop-color="#243c7a"/>
-            <stop offset="1" stop-color="#111f4c"/>
-          </linearGradient>
-
-          <linearGradient id="rg2" x1="0" y1="0" x2="0" y2="1">
-            <stop offset="0" stop-color="#3050b2"/>
-            <stop offset="1" stop-color="#1a3379"/>
-          </linearGradient>
-
-          <linearGradient id="rg3" x1="0" y1="0" x2="0" y2="1">
-            <stop offset="0" stop-color="#3a5be6"/>
-            <stop offset="1" stop-color="#2340c4"/>
-          </linearGradient>
-
-          <linearGradient id="rg4" x1="0" y1="0" x2="0" y2="1">
-            <stop offset="0" stop-color="#4c70e8"/>
-            <stop offset="1" stop-color="#2f4fca"/>
-          </linearGradient>
-
-          <linearGradient id="rg5" x1="0" y1="0" x2="0" y2="1">
-            <stop offset="0" stop-color="#5f85ee"/>
-            <stop offset="1" stop-color="#3d68d6"/>
-          </linearGradient>
-
-          <linearGradient id="rg6" x1="0" y1="0" x2="0" y2="1">
-            <stop offset="0" stop-color="#7196f1"/>
-            <stop offset="1" stop-color="#4a79e2"/>
-          </linearGradient>
-
-          <path
-            id="decisionPath"
-            d="M125,270 C215,270 235,155 325,155 C415,155 435,270 525,270 C615,270 635,155 725,155 C815,155 835,270 925,270 C1015,270 1035,155 1110,155">
-          </path>
-        </defs>
-
-        <use href="#decisionPath" class="road-track"></use>
-
-        <circle
-          r="6"
-          fill="#fff"
-          stroke="#2a4bd7"
-          stroke-width="2.5">
-
-          <animateMotion dur="14s" repeatCount="indefinite">
-            <mpath href="#decisionPath"></mpath>
-          </animateMotion>
-        </circle>
-
-        <g class="road-node">
-          <circle class="halo" cx="125" cy="270" r="50"></circle>
-          <circle class="core" cx="125" cy="270" r="39" fill="url(#rg1)"></circle>
-
-          <text class="rt-num" x="125" y="278" text-anchor="middle">1</text>
-
-          <text class="rt-title" x="125" y="342" text-anchor="middle">
-            Frame the decision
-          </text>
-
-          <text class="rt-desc" x="125" y="364" text-anchor="middle">
-            Name the choice before
-          </text>
-
-          <text class="rt-desc" x="125" y="382" text-anchor="middle">
-            opening the file.
-          </text>
-        </g>
-
-        <g class="road-node">
-          <circle class="halo" cx="325" cy="155" r="50"></circle>
-          <circle class="core" cx="325" cy="155" r="39" fill="url(#rg2)"></circle>
-
-          <text class="rt-num" x="325" y="163" text-anchor="middle">2</text>
-
-          <text class="rt-title" x="325" y="57" text-anchor="middle">
-            Structure the problem
-          </text>
-
-          <text class="rt-desc" x="325" y="79" text-anchor="middle">
-            Turn ambiguity into
-          </text>
-
-          <text class="rt-desc" x="325" y="97" text-anchor="middle">
-            testable drivers.
-          </text>
-        </g>
-
-        <g class="road-node">
-          <circle class="halo" cx="525" cy="270" r="50"></circle>
-          <circle class="core" cx="525" cy="270" r="39" fill="url(#rg3)"></circle>
-
-          <text class="rt-num" x="525" y="278" text-anchor="middle">3</text>
-
-          <text class="rt-title" x="525" y="342" text-anchor="middle">
-            Get honest data
-          </text>
-
-          <text class="rt-desc" x="525" y="364" text-anchor="middle">
-            Trust the data only
-          </text>
-
-          <text class="rt-desc" x="525" y="382" text-anchor="middle">
-            after it earns it.
-          </text>
-        </g>
-
-        <g class="road-node">
-          <circle class="halo" cx="725" cy="155" r="50"></circle>
-          <circle class="core" cx="725" cy="155" r="39" fill="url(#rg4)"></circle>
-
-          <text class="rt-num" x="725" y="163" text-anchor="middle">4</text>
-
-          <text class="rt-title" x="725" y="57" text-anchor="middle">
-            Isolate what matters
-          </text>
-
-          <text class="rt-desc" x="725" y="79" text-anchor="middle">
-            Follow the few factors
-          </text>
-
-          <text class="rt-desc" x="725" y="97" text-anchor="middle">
-            that change the answer.
-          </text>
-        </g>
-
-        <g class="road-node">
-          <circle class="halo" cx="925" cy="270" r="50"></circle>
-          <circle class="core" cx="925" cy="270" r="39" fill="url(#rg5)"></circle>
-
-          <text class="rt-num" x="925" y="278" text-anchor="middle">5</text>
-
-          <text class="rt-title" x="925" y="342" text-anchor="middle">
-            Find the “so what”
-          </text>
-
-          <text class="rt-desc" x="925" y="364" text-anchor="middle">
-            Translate evidence into
-          </text>
-
-          <text class="rt-desc" x="925" y="382" text-anchor="middle">
-            a business consequence.
-          </text>
-        </g>
-
-        <g class="road-node">
-          <circle class="halo" cx="1110" cy="155" r="50"></circle>
-          <circle class="core" cx="1110" cy="155" r="39" fill="url(#rg6)"></circle>
-
-          <text class="rt-num" x="1110" y="163" text-anchor="middle">6</text>
-
-          <text class="rt-title" x="1110" y="57" text-anchor="middle">
-            Make the action clear
-          </text>
-
-          <text class="rt-desc" x="1110" y="79" text-anchor="middle">
-            Present the next move
-          </text>
-
-          <text class="rt-desc" x="1110" y="97" text-anchor="middle">
-            so it is hard to miss.
-          </text>
-        </g>
-      </svg>
-    </div>
-
-    <div class="road-mobile reveal">
-      <div class="rm-step">
-        <div class="num" style="background:#16265e">1</div>
-
-        <div class="txt">
-          <h4>Frame the decision</h4>
-          <p>Name the choice before opening the file.</p>
-        </div>
+      <div class="edu-row">
+        <div class="edu-deg">B.A. Economics</div>
+        <div class="edu-school">University of Mumbai</div>
+        <div class="edu-date">JUN 2018 TO MAY 2021</div>
       </div>
-
-      <div class="rm-step">
-        <div class="num" style="background:#223f9a">2</div>
-
-        <div class="txt">
-          <h4>Structure the problem</h4>
-          <p>Turn ambiguity into testable drivers.</p>
-        </div>
+      <div class="edu-row">
+        <div class="edu-deg">Project Management Professional, PMP</div>
+        <div class="edu-school">Project Management Institute</div>
+        <div class="edu-date">2025</div>
       </div>
-
-      <div class="rm-step">
-        <div class="num" style="background:#2a4bd7">3</div>
-
-        <div class="txt">
-          <h4>Get honest data</h4>
-          <p>Trust the data only after it earns it.</p>
-        </div>
-      </div>
-
-      <div class="rm-step">
-        <div class="num" style="background:#3a5fdd">4</div>
-
-        <div class="txt">
-          <h4>Isolate what matters</h4>
-          <p>Follow the few factors that change the answer.</p>
-        </div>
-      </div>
-
-      <div class="rm-step">
-        <div class="num" style="background:#4b76e5">5</div>
-
-        <div class="txt">
-          <h4>Find the “so what”</h4>
-          <p>Translate evidence into a business consequence.</p>
-        </div>
-      </div>
-
-      <div class="rm-step">
-        <div class="num" style="background:#5e88ec">6</div>
-
-        <div class="txt">
-          <h4>Make the action clear</h4>
-          <p>Present the next move so it is hard to miss.</p>
-        </div>
+      <div class="edu-row">
+        <div class="edu-deg">Google AI Essentials</div>
+        <div class="edu-school">Google</div>
+        <div class="edu-date">2026</div>
       </div>
     </div>
+
+    <p class="skill-note reveal">
+      I trust data only after it earns it. Every project above states plainly
+      what it does not establish.
+    </p>
   </div>
 </section>
-
-<!-- CONTACT -->
 
 <section class="contact page-section" id="contact">
   <div class="wrap">
@@ -1380,38 +1204,32 @@ footer .fl a:hover{
       <span class="sq"></span>
       Let's connect
     </h2>
-
     <div class="cinfo reveal reveal-delay-1">
       <div class="col">
-        <h4>WRITE</h4>
+        <h4>EMAIL</h4>
         <a href="mailto:yesha3710@gmail.com">yesha3710@gmail.com</a>
       </div>
-
-      <div class="col">
-        <h4>CALL</h4>
-        <p>+1 (412) 390-9438</p>
-      </div>
-
       <div class="col">
         <h4>LINKEDIN</h4>
-
         <a
-          href="https://www.linkedin.com/in/yesha-mandaliya-pmp%C2%AE-ba8bb5199/"
+          href="https://www.linkedin.com/in/yesha-mandaliya-pmp-ba8bb5199/"
           target="_blank"
           rel="noopener noreferrer">
-          /in/yesha-mandaliya-pmp®
+          /in/yesha-mandaliya
         </a>
       </div>
-
       <div class="col">
         <h4>GITHUB</h4>
-
         <a
           href="https://github.com/YeshaMandaliya"
           target="_blank"
           rel="noopener noreferrer">
           YeshaMandaliya
         </a>
+      </div>
+      <div class="col">
+        <h4>LOCATION</h4>
+        <p>United States, open to relocation</p>
       </div>
     </div>
   </div>
@@ -1420,17 +1238,14 @@ footer .fl a:hover{
 <footer>
   <div class="wrap row">
     <div class="copy">© 2026 Yesha Mandaliya</div>
-
     <div class="fl">
       <a href="mailto:yesha3710@gmail.com">Email</a>
-
       <a
-        href="https://www.linkedin.com/in/yesha-mandaliya-pmp%C2%AE-ba8bb5199/"
+        href="https://www.linkedin.com/in/yesha-mandaliya-pmp-ba8bb5199/"
         target="_blank"
         rel="noopener noreferrer">
         LinkedIn
       </a>
-
       <a
         href="https://github.com/YeshaMandaliya"
         target="_blank"
@@ -1443,7 +1258,6 @@ footer .fl a:hover{
 
 <script>
 const revealItems = document.querySelectorAll(".reveal");
-
 if ("IntersectionObserver" in window) {
   const revealObserver = new IntersectionObserver(
     entries => {
@@ -1459,18 +1273,14 @@ if ("IntersectionObserver" in window) {
       rootMargin:"0px 0px -7% 0px"
     }
   );
-
   revealItems.forEach(item => revealObserver.observe(item));
 } else {
   revealItems.forEach(item => item.classList.add("visible"));
 }
-
 const navLinks = [...document.querySelectorAll(".menu a")];
-
 const sections = navLinks
   .map(link => document.querySelector(link.getAttribute("href")))
   .filter(Boolean);
-
 if ("IntersectionObserver" in window) {
   const sectionObserver = new IntersectionObserver(
     entries => {
@@ -1489,10 +1299,8 @@ if ("IntersectionObserver" in window) {
       rootMargin:"-38% 0px -55% 0px"
     }
   );
-
   sections.forEach(section => sectionObserver.observe(section));
 }
 </script>
-
 </body>
 </html>
