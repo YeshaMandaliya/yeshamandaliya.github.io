@@ -3,14 +3,14 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Yesha Mandaliya | Data Analytics, Business Intelligence &amp; AI</title>
+<title>Yesha Mandaliya | Commercial Analytics &amp; AI</title>
 <meta
   name="description"
-  content="Yesha Mandaliya. Data analyst with 4+ years across operations, pricing, and company intelligence. SQL, Python, Power BI, Tableau."
+  content="Yesha Mandaliya. Commercial analytics and AI for pricing, revenue, and growth decisions. Surfaced $470K+ in recoverable revenue and recovered $140K+ in leakage at Waste Management (Fortune 500)."
 >
 <!-- Open Graph tags so the link previews properly when pasted into an application, email, or message -->
-<meta property="og:title" content="Yesha Mandaliya | Data Analytics, Business Intelligence &amp; AI">
-<meta property="og:description" content="Data analyst turning &quot;I think&quot; into &quot;I know.&quot;">
+<meta property="og:title" content="Yesha Mandaliya | Commercial Analytics &amp; AI">
+<meta property="og:description" content="Turning commercial data into the next strategic move, with analytics and AI.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://yeshamandaliya.github.io/">
 <!-- <meta property="og:image" content="https://yeshamandaliya.github.io/og-preview.png"> -->
@@ -246,6 +246,41 @@ nav .row{
 }
 .pill.solid:hover{
   opacity:.9;
+}
+/* PROOF STRIP */
+.proof{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:14px;
+  max-width:600px;
+  margin-bottom:30px;
+}
+.stat{
+  background:#fff;
+  border-left:3px solid var(--blue);
+  border-radius:4px;
+  padding:12px 14px;
+}
+.stat .num{
+  display:block;
+  font-size:1.35rem;
+  font-weight:800;
+  color:var(--blue-deep);
+  line-height:1.2;
+}
+.stat .lbl{
+  display:block;
+  font-size:.74rem;
+  color:var(--muted);
+  line-height:1.4;
+  margin-top:4px;
+}
+.trust{
+  margin-top:22px;
+  font-size:.88rem;
+  font-style:italic;
+  color:var(--muted);
+  max-width:600px;
 }
 /* SECTIONS */
 section.block{
@@ -720,6 +755,9 @@ footer .fl a:hover{
   .hero-right h1{
     font-size:2rem;
   }
+  .proof{
+    grid-template-columns:1fr;
+  }
   section.block{
     padding:72px 0;
   }
@@ -764,7 +802,7 @@ footer .fl a:hover{
       <span>
         <span class="nm">Yesha Mandaliya</span>
         &nbsp;
-        <span class="role">DATA ANALYTICS &middot; BI &middot; AI</span>
+        <span class="role">COMMERCIAL ANALYTICS &middot; AI</span>
       </span>
     </div>
     <div class="menu">
@@ -789,8 +827,8 @@ footer .fl a:hover{
         <h2>Yesha Mandaliya</h2>
         <div class="divider"></div>
         <div class="sub">
-          DATA ANALYTICS<br>
-          BUSINESS INTELLIGENCE &amp; AI
+          COMMERCIAL ANALYTICS<br>
+          &amp; AI
         </div>
       </div>
       <div class="social">
@@ -825,19 +863,33 @@ footer .fl a:hover{
   </div>
   <div class="hero-right reveal from-right reveal-delay-1">
     <p class="kick">HI, I'M YESHA</p>
-    <h1>Turning &ldquo;I think&rdquo; into &ldquo;I know.&rdquo;</h1>
+    <h1>Turning commercial data into the next strategic move, with analytics and AI.</h1>
     <p class="bio">
-      I am a data analyst with over four years across analytics and research
-      roles in operations, pricing, and company intelligence. I turn large
-      datasets into the dashboards, reports, and analysis that leadership acts
-      on, using SQL, Python, Power BI, Tableau, and advanced Excel. Lately I
-      have been building AI into daily work to automate reporting and shorten
-      the time it takes to get to an answer.
+      My work shapes pricing, revenue, and growth decisions. The AI workflows
+      I build take on the data pulls, reporting, and first-pass analysis.
+      The judgment calls stay with me: stress-testing the numbers, reading
+      the business context, and recommending a decisive move, with the
+      fallback already mapped.
     </p>
+    <div class="proof">
+      <div class="stat">
+        <span class="num">$470K+</span>
+        <span class="lbl">recoverable revenue surfaced through margin-risk segmentation</span>
+      </div>
+      <div class="stat">
+        <span class="num">$140K+</span>
+        <span class="lbl">revenue leakage and avoidable cost recovered</span>
+      </div>
+      <div class="stat">
+        <span class="num">Top 3</span>
+        <span class="lbl">KPMG Cup, go-to-market and pricing strategy for a $942M industry</span>
+      </div>
+    </div>
     <div class="btns">
       <a href="#projects" class="pill solid">SEE MY WORK</a>
-      <a href="#contact" class="pill">GET IN TOUCH</a>
+      <a href="Yesha_Mandaliya_Resume.pdf" class="pill" download>DOWNLOAD RESUME</a>
     </div>
+    <p class="trust">I trust data only after it earns it. Every project here states plainly what it does not establish.</p>
   </div>
 </section>
 
@@ -1191,10 +1243,6 @@ footer .fl a:hover{
       </div>
     </div>
 
-    <p class="skill-note reveal">
-      I trust data only after it earns it. Every project above states plainly
-      what it does not establish.
-    </p>
   </div>
 </section>
 
